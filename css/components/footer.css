@@ -1,0 +1,68 @@
+h2, p {
+  margin: 0;
+  padding: 5px;
+}
+
+p {
+  font-size: 18px;
+}
+
+li, ul {
+  list-style: none;
+  padding: 5px 0;
+  margin: 0;
+}
+
+footer {
+  margin-top: 100px;
+  background-image: url("../../images/pexels-gin-patin-2692556.jpg");
+  background-size: 150%;
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  font-weight: 500;
+  text-shadow: 5px 3px 6px #000000;
+}
+
+.background-footer{
+  height: auto;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.grid-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.card-footer {
+  height: 200px;
+  width: 320px;
+  padding: 10px;
+  text-align: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.card-footer-1 {
+  text-align: start;
+  border-left: none;
+}
+
+.card-footer-4 {
+  text-align: start;
+  border-right: none;
+}
+
+.card-footer-1 p {
+  padding: 50px 0;
+  text-align: start;
+}
+
+
+
+.card-footer-4 p {
+  text-align: start;
+}

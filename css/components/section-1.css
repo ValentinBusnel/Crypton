@@ -1,0 +1,90 @@
+.section-1 {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.card {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  transition: ease-in-out 0.5s;
+  transform-style: calc();
+}
+
+
+.card:hover {
+  transform: scale(0.9);
+  transition: ease-in-out 1s;
+}
+
+.card-1 {
+  border-radius: 32px 32px 0px 32px;
+  /* background-color: #F0EAE3; */
+  background-image: url("../../images/pexels-dids-6273441.jpg");
+  background-size: cover;
+}
+
+.card-2 {
+  border-radius: 32px 32px 32px 0;
+  /* background-color: #02222D; */
+  background-image: url("../../images/pexels-steve-johnson-2130474.jpg");
+  background-size: cover;
+}
+
+.card-3 {
+  border-radius: 32px 0px 32px 32px;
+  background-color: #F6D0BC;
+  background-image: url("../../images/pexels-dids-3705170.jpg");
+  background-size: cover;
+}
+
+.card-4 {
+  border-radius: 0px 32px 32px 32px;
+  /* background-color: #008394; */
+  background-image: url("../../images/pexels-karolina-grabowska-6757510.jpg");
+  background-size: cover;
+}
+
+.sous-carde {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  background-color: cornsilk;
+  border: 2px solid rgba(0, 0, 0, 0.438);
+}
+
+.sous-carde-1 {
+  bottom: 0;
+  right: 0;
+  border-radius: 32px 0px 0px 0px;
+  background-image: url("../../images/Capture\ d’écran\ 2021-10-28\ à\ 17.42.18.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.sous-carde-2 {
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 32px 0px 0px;
+  background-image: url("../../images/Capture\ d’écran\ 2021-10-28\ à\ 17.46.47.png");
+  background-size: cover;
+  background-position: left;
+}
+.sous-carde-3 {
+  top: 0;
+  right: 0;
+  border-radius: 0px 0px 0px 32px;
+  background-image: url("../../images/Capture\ d’écran\ 2021-10-28\ à\ 17.43.06.png");
+  background-position: bottom;
+  background-size: 100%;
+}
+.sous-carde-4 {
+  top: 0;
+  left: 0;
+  border-radius: 0px 0px 32px 0px;
+  background-image: url("../../images/Capture\ d’écran\ 2021-10-28\ à\ 17.45.45.png");
+  background-size: cover;
+}
