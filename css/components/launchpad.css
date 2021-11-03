@@ -11,57 +11,8 @@
 
 .launchpad h3 {
   margin: 0 auto;
-  padding: 30px;
+  padding: 30px 0;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   text-align: center;
-}
-/*
-
-.launchpad h4 {
-  margin: 0;
-  padding: 0;
-}
-
-
-.launchpad p {
- font-weight: 100;
- font-size: 13px;
- text-align: center;
-}
-
-.card-launchpad {
-  height: auto;
-  width: auto;
-  margin: 10px;
-  border-radius: 20px;
-  transition: 0.3s;
-}
-
-.card-launchpad:hover {
-  color: white;
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.work-card {
-  height: 100px;
-  background-image: url("../../images/pexels-karolina-grabowska-6757510.jpg");
-  background-size: cover;
-}
-
-.game-now-card {
-  height: 200px;
-  background-image: url("../../images/Capture\ d’écran\ 2021-10-29\ à\ 15.14.57.png");
-  background-size: cover;
-}
-
-.lastes-news-card {
-  border-radius: 0 20px 20px 20px;
-  padding: 10px;
-  background-color: #272634;
-} */
-
-._scorebatEmbeddedPlayer_ {
-  border-radius: 20px;
 }
