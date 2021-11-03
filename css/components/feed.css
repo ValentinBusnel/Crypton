@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   width: 50%;
+  margin: 0 auto;
   padding: 0 50px;
 }
 
@@ -14,9 +15,6 @@
   letter-spacing: 5px;
 }
 
-.feed .container {
-  background-color: rgba(137, 43, 226, 0.042);
-}
 
 .surcouche {
   background-color: #161720;
@@ -29,7 +27,7 @@
 }
 
 .league {
-  padding: 20px;
+  padding: 10px;
   margin: 2px;
   border-radius: 5px;
   background-color: rgba(137, 43, 226, 0.151);
@@ -108,8 +106,6 @@ tbody tr:hover {
 th, td {
   padding: 0 5px;
 }
-
-
 
 .team, .team-header {
   /* text-align: start; */

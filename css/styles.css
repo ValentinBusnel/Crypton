@@ -59,5 +59,9 @@ i {
   .wrapper-feed {
     height: 100%;
     width: 100%;
+    padding: 0;
   }
+}
+.d-none {
+  display: none;
 }
