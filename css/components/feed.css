@@ -43,35 +43,6 @@
   transition: 0.3s;
 }
 
-
-
-
-
-
-
-.classement h4, .classement-header h4  {
-  color: red;
-  font-weight: 100;
-}
-
-
-.classement, .classement-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 10px auto;
-  height: 50px;
-  width: 90%;
-  background-color: rgba(137, 43, 226, 0.151);
-  color: white;
-  border-radius: 20px;
-  transition: 0.3s;
-}
-
-.classement-header {
-  transform: scale(1.1);
-}
-
 .classement:hover {
   color: white;
   transform: scale(1.1);
