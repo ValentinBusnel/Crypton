@@ -1,24 +1,45 @@
 const imgs = document.querySelectorAll('img')
 const idLeagues = [39, 61, 78, 135, 140, 2];
 
-TweenMax.from(".highlights", 1, {
-  delay: 0,
+TweenMax.from(".highlights-title", 2, {
+  delay: 1.5,
   opacity: 0,
-  y: 350,
+  x: 350,
   ease: Expo.easeInOut,
 })
 
-TweenMax.from(".feed", 3, {
+TweenMax.from(".highlights", 1.5, {
   delay: 0,
+  opacity: 0,
+  x: -350,
+  ease: Expo.easeInOut,
+})
+
+TweenMax.from(".feed", 1, {
+  delay: 1,
+  opacity: 0,
+  y: -1050,
+  ease: Expo.easeInOut,
+})
+
+TweenMax.from(".crypton-title", 2, {
+  delay: 1.5,
   opacity: 0,
   y: -350,
   ease: Expo.easeInOut,
 })
 
-TweenMax.from(".launchpad", 1, {
+TweenMax.from(".launchpad", 1.5, {
   delay: 0,
   opacity: 0,
-  y: 350,
+  x: 350,
+  ease: Expo.easeInOut,
+})
+
+TweenMax.from(".score-title", 2, {
+  delay: 1.5,
+  opacity: 0,
+  x: -350,
   ease: Expo.easeInOut,
 })
 
@@ -113,9 +134,9 @@ pL.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: 0,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(39); //39 PL |
@@ -125,9 +146,9 @@ ligue1.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(61); //39 PL |
@@ -137,9 +158,9 @@ bundesliga.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(78); //39 PL |
@@ -149,9 +170,9 @@ serieA.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(135); //39 PL |
@@ -161,9 +182,9 @@ laLiga.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(140); //39 PL |
@@ -173,9 +194,9 @@ ldc.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(2); //39 PL |
@@ -185,9 +206,9 @@ europa.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(3); //39 PL |
@@ -197,9 +218,9 @@ conference.addEventListener("click", (event) => {
   document.querySelector("tbody").innerHTML = "";
   document.querySelector("thead").classList.remove("d-none");
   TweenMax.from("tbody", 1, {
-    delay: 0,
+    delay: 0.2,
     opacity: 0,
-    y: -150,
+    z: -150,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(848); //39 PL |
