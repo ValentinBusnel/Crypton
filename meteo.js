@@ -23,7 +23,7 @@ TweenMax.from(".feed", 1, {
 })
 
 TweenMax.from(".crypton-title", 2, {
-  delay: 2,
+  delay: 1.5,
   opacity: 0,
   y: -350,
   ease: Expo.easeInOut,
@@ -162,7 +162,7 @@ ligue1.addEventListener("click", (event) => {
   TweenMax.from("tbody", 1, {
     delay: 0.2,
     opacity: 0,
-    z: -150,
+    z: 0,
     ease: Expo.easeInOut,
   })
   fetchApiFootball(61); //39 PL |

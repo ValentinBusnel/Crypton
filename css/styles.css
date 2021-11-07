@@ -56,6 +56,11 @@ i {
   background-color: khaki;
 }
 
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0;
+}
+
 
 @media (max-width: 800px) {
   /* For a screen < 960px, this CSS will be read */
