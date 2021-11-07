@@ -8,10 +8,10 @@ TweenMax.from(".highlights-title", 2, {
   ease: Expo.easeInOut,
 })
 
-TweenMax.from(".highlights", 1.5, {
+TweenMax.from(".highlights", 2, {
   delay: 0,
   opacity: 0,
-  x: -350,
+  y: -1050,
   ease: Expo.easeInOut,
 })
 
@@ -23,16 +23,23 @@ TweenMax.from(".feed", 1, {
 })
 
 TweenMax.from(".crypton-title", 2, {
-  delay: 1.5,
+  delay: 2,
   opacity: 0,
   y: -350,
   ease: Expo.easeInOut,
 })
 
-TweenMax.from(".launchpad", 1.5, {
+TweenMax.from(".classement-test", 2, {
+  delay: 2,
+  opacity: 0,
+  z: -500,
+  ease: Expo.easeInOut,
+})
+
+TweenMax.from(".launchpad", 2, {
   delay: 0,
   opacity: 0,
-  x: 350,
+  y: -1050,
   ease: Expo.easeInOut,
 })
 
@@ -40,6 +47,13 @@ TweenMax.from(".score-title", 2, {
   delay: 1.5,
   opacity: 0,
   x: -350,
+  ease: Expo.easeInOut,
+})
+
+TweenMax.from("._scorebatEmbeddedPlayer_", 1, {
+  delay: 2,
+  opacity: 0,
+  y: 350,
   ease: Expo.easeInOut,
 })
 
