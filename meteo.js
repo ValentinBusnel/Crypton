@@ -1,5 +1,5 @@
 const imgs = document.querySelectorAll('img')
-const idLeagues = [39, 61, 78, 135, 140, 2];
+const idLeagues = [39, 299, 61, 78, 135, 140, 2];
 
 TweenMax.from(".highlights-title", 2, {
   delay: 1.5,
@@ -76,6 +76,7 @@ idLeagues.forEach((id) => {
   imgs[5].src = `https://media.api-sports.io/football/leagues/78.png`;
   imgs[6].src = `https://media.api-sports.io/football/leagues/135.png`;
   imgs[7].src = `https://media.api-sports.io/football/leagues/140.png`;
+  imgs[8].src = `https://media.api-sports.io/football/leagues/299.png`;
 })
 
 const displayHeader = () => {
@@ -133,9 +134,10 @@ const fetchApiFootball = (league) => {
     })
 };
 
-fetchApiFootball(2)
+fetchApiFootball(61)
 
 const pL = document.querySelector(".premiere-league")
+const primeraDivision = document.querySelector(".primera-division")
 const ligue1 = document.querySelector(".ligue-1")
 const bundesliga = document.querySelector(".bundesliga")
 const serieA = document.querySelector(".serie-A")
@@ -154,6 +156,19 @@ pL.addEventListener("click", (event) => {
     ease: Expo.easeInOut,
   })
   fetchApiFootball(39); //39 PL |
+});
+
+primeraDivision.addEventListener("click", (event) => {
+  console.log(event);
+  document.querySelector("tbody").innerHTML = "";
+  document.querySelector("thead").classList.remove("d-none");
+  TweenMax.from("tbody", 1, {
+    delay: 0.2,
+    opacity: 0,
+    z: 0,
+    ease: Expo.easeInOut,
+  })
+  fetchApiFootball(299); //39 PL |
 });
 
 ligue1.addEventListener("click", (event) => {
